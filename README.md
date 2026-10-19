@@ -11,7 +11,7 @@ Native Android tethered photo viewer for FUJIFILM X‑T5 over USB and Wi‑Fi.
 [![Version](https://img.shields.io/badge/version-0.9.2%20beta-blue)](app/build.gradle)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-[快速上手](#快速上手) · [使用指南](docs/USER_GUIDE.md) · [构建与测试](#构建与测试) · [反馈问题](https://github.com/az7852/xt5-tether/issues)
+[下载 APK](https://github.com/az7852/xt5-tether/raw/refs/heads/main/downloads/XT5-Tether-0.9.2-debug.apk) · [快速上手](#快速上手) · [使用指南](docs/USER_GUIDE.md) · [构建与测试](#构建与测试) · [反馈问题](https://github.com/az7852/xt5-tether/issues)
 
 </div>
 
@@ -50,7 +50,9 @@ Native Android tethered photo viewer for FUJIFILM X‑T5 over USB and Wi‑Fi.
 
 ### 1. 安装
 
-目前可从源码构建，或从成功的 [GitHub Actions 构建](https://github.com/az7852/xt5-tether/actions/workflows/android.yml)下载 `XT5-Tether-debug` artifact，解压后安装 APK。下载 Actions artifact 通常需要登录 GitHub；首次推送后需等待构建成功才会出现。
+直接下载 **[XT5 Tether 0.9.2 测试版 APK](https://github.com/az7852/xt5-tether/raw/refs/heads/main/downloads/XT5-Tether-0.9.2-debug.apk)**（约 2.55 MB，Android 11+）。这是此前已在真实手机和平板安装验证的原包，APK v2 签名和内容摘要已核验；可用 [SHA-256 校验文件](downloads/SHA256SUMS.txt)确认下载完整性。
+
+也可从源码构建，或从成功的 [GitHub Actions 构建](https://github.com/az7852/xt5-tether/actions/workflows/android.yml)下载 `XT5-Tether-debug` artifact，解压后安装。下载 Actions artifact 通常需要登录 GitHub。
 
 这是开发签名测试包。不同构建环境的 debug 签名可能不同，签名不一致时不能直接覆盖安装；卸载前请先导出 App 图库原图。
 

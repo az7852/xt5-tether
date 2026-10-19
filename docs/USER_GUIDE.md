@@ -104,7 +104,7 @@ Wi‑Fi 通常慢于 USB，RAW 体积较大，先用 JPEG 验证。无线联机�
 
 要求 Android 11 或以上，手机/平板支持 USB Host/OTG，使用支持数据传输的 USB‑C 线；必要时使用 OTG 转接器。手机必须作为 USB 主机。
 
-1. 按下文构建并安装 `app/build/outputs/apk/debug/app-debug.apk`，或下载 GitHub Actions 生成的测试包。测试包使用开发签名；仅当签名一致时才能覆盖升级并保留应用数据。
+1. 下载 [0.9.2 测试版 APK](https://github.com/az7852/xt5-tether/raw/refs/heads/main/downloads/XT5-Tether-0.9.2-debug.apk)，或按下文构建并安装 `app/build/outputs/apk/debug/app-debug.apk`。测试包使用开发签名；仅当签名一致时才能覆盖升级并保留应用数据。
 2. X‑T5 → 网络/USB 设置 → 连接模式 → **USB 联机拍摄自动 / USB TETHER SHOOTING AUTO**。
 3. USB 供电/通信设置选择 **自动** 或 **供电关/通信开**；将自动关机设为关闭。
 4. 推荐先用 **JPEG FINE** 验证，再试 RAW+JPEG。连接手机，打开 App，点「连接 → USB 数据线连接」，允许 USB 访问。
