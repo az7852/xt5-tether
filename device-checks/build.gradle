@@ -1,0 +1,17 @@
+// Self-targeted checks reuse production code but have an isolated UID, files and MediaStore owner.
+plugins { id 'com.android.application' }
+android {
+    namespace 'io.github.xt5tether'
+    compileSdk 35
+    defaultConfig { applicationId 'io.github.xt5tether.checks'; minSdk 30; targetSdk 35; versionCode 1; versionName '1.0' }
+    sourceSets.main {
+        java.srcDir '../app/src/main/java'
+        res.srcDir '../app/src/main/res'
+        assets.srcDir '../app/src/main/assets'
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies {
+    implementation 'androidx.exifinterface:exifinterface:1.4.2'
+    compileOnly 'androidx.annotation:annotation:1.8.1'
+}

@@ -1,0 +1,20 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.tools/
+artifacts/
+
+# Local configuration and signing material
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+keystore.properties
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/

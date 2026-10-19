@@ -1,0 +1,13 @@
+<resources>
+    <string name="usb_connection">%1$s  %2$s</string>
+    <string name="capture_count">最近 %1$d 张</string>
+    <string name="gallery_count">图库 · %1$d 张</string>
+    <string name="gallery_metadata">%1$s · %2$.1f MB</string>
+    <string name="decode_failure">文件已保存\n%1$s</string>
+    <string name="save_app">App 图库</string>
+    <string name="save_album">本地相册</string>
+    <string name="wifi_acceleration">无线传输加速（测试）</string>
+    <string name="wifi_acceleration_help">尝试减少相机等待接收确认的时间。保存后立即生效，无需重新连接；可开关对比实际下载速度。不降低原图画质。</string>
+    <string name="wifi_low_latency">Wi‑Fi 活跃模式（测试）</string>
+    <string name="wifi_low_latency_help">联机时减少无线省电等待，在屏幕亮起且 App 位于前台时生效。启用会增加耗电；保存后生效，断开连接后释放。</string>
+</resources>

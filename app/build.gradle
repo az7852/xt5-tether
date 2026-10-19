@@ -1,0 +1,21 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'io.github.xt5tether'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'io.github.xt5tether'
+        minSdk 30
+        targetSdk 35
+        versionCode 26
+        versionName '0.9.2'
+        testInstrumentationRunner 'io.github.xt5tether.LayoutStabilityInstrumentation'
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    buildTypes { release { minifyEnabled false } }
+    lint { abortOnError true }
+}
+dependencies {
+    implementation 'androidx.exifinterface:exifinterface:1.4.2'
+    compileOnly 'androidx.annotation:annotation:1.8.1'
+    testImplementation 'junit:junit:4.13.2'
+}
